@@ -1,121 +1,259 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Yellowtail&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Yellowtail&display=swap"
+        rel="stylesheet">
     <style>
+        .overlay {
+            bottom: 15%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            background-color: #666666;
+        }
 
-      body {
-        margin-bottom: 60px;
-      }
+        body {
+            margin-bottom: 60px;
+        }
 
-      html {
-        position: relative;
-        min-height: 100%;
-      }
-      
-      .footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 60px; /* Set the fixed height of the footer here */
-        line-height: 60px; /* Vertically center the text there */
-      }
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            height: 60px;
+            /* Set the fixed height of the footer here */
+            line-height: 60px;
+            /* Vertically center the text there */
+        }
     </style>
     <title>Christopher Lee - About</title>
-  </head>
-  <body class="bg-light">
-   
-<!-- responsive navbar -->
-    <nav class="navbar navbar-expand flex-column flex-md-row navbar-dark p-0 border-bottom bd-navbar overflow-hidden" style="background-color: #32527B;"> 
-      <!-- existing brand component with responsive margin and hides on smaller sizes -->
-      <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100" style="margin-left:3%;font-family: 'Oswald', sans-serif;font-size: 30px; background-color:#ED7900">Christopher Lee</a>
-      <!-- appears on smaller sizes with background that fills 100% width -->
-      <div class="d-block d-md-none p-4 font-weight-bold m-0" style="width:100%; background-color:#ED7900">
-        <p class="text-center text-white m-0" style="font-family: 'Oswald', sans-serif;font-size: 30px;">Christopher Lee</p>
-      </div>
-      <!-- nav links -->
-      <div class="navbar-nav-scroll my-3 ml-md-auto" style="margin-right:3%">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link text-white-50 border-right py-0 px-3" href="index.html"><small>About</small></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white-50 border-right py-0 px-3" href="portfolio.html"><small>Portfolio</small></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white-50 py-0 pl-3" href="contact.html"><small>Contact</small></a>
-        </ul>
-      </div>
-    </nav>
-  <!-- main body of content -->
-    <main class="container-fluid no-gutters border-top mr-0 p-0 overflow-hidden bg-light">
-      <div class="row m-0">
-        <div class="col-md-12 p-0">
-          <section class="jumbotron bg-white border py-2 px-1 my-5" style="max-width: 725px;margin: 0 3%">
-            <div class="container">
-              <!-- sub-row -->
-              <div class="row">
-                <!-- header -->
-                <header class="col-12">
-                  <h2 class="display-5 font-weight-bold border-bottom" style="color: #32527B; font-family: 'Yellowtail', cursive;">About Me</h2>
-                </header>
-              </div>
-              <!-- sub-row -->
-              <div class="row m-0">
-                <div class="col-md-12 py-2 px-0">
-                  <!-- only appears on smaller sizes -->
-                  <div class="d-block d-md-none m-0">
-                    <img src= "assets/profile.jpeg" alt="profile" class="img-fluid mr-3 mb-2" style="width:500px">
-                  </div>
-                  <!-- only appears on bigger sizes -->
-                    <div class="d-none d-md-block">
-                      <img src= "assets/profile.jpeg" alt="profile" class="img-fluid float-sm-left mr-3 mb-2" style="width:300px">
-                    </div>
-                  <p>
-                    I am a marketer and aspiring full-stack developer based in San Francisco, California. Born and raised in the East Bay, I consider myself a Bay Area native despite only recently returning to the Bay after 20 years away from home.
-                  </p>
-                  <p>
-                    I have a BA in Chinese Language and Literature from UC Irvine and an MBA from The Hong Kong University of Science and Technology (HKUST). Upon receiving my MBA, I was recruited by AXA, a French multi-national insurance company, where I held numerous management positions across various functions over the past decade.  Most recently, I was the Head of Marketing for AXA in Indonesia.
-                  </p>
-                  <p>
-                    In a past life (i.e. prior to fatherhood), I was an avid traveler and beach connoisseur.  My three favorite beaches, in no particular order, are Whitehaven Beach on Whitsunday Island, Australia, Furuzamami Beach on Zamami Island, Okinawa, and Phra Nang Beach in Krabi, Thailand.  
-                  </p>
+</head>
 
-                  <a href="https://www.linkedin.com/in/christophernlee/" target="blank">LinkedIn</a>
-                  <br/>
-                  <a href="https://github.com/CofChips" target="blank">GitHub - CofChips</a>
-                
-                </div>
-              </div>
-              
- 
-            </div>
-          </section>
+<body class="bg-light">
+
+    <!-- responsive navbar -->
+    <nav class="navbar navbar-expand flex-column flex-md-row navbar-dark p-0 border-bottom bd-navbar overflow-hidden"
+        style="background-color: #32527B;">
+        <!-- existing brand component with responsive margin and hides on smaller sizes -->
+        <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100"
+            style="margin-left:3%;font-family: 'Oswald', sans-serif;font-size: 30px; background-color:#ED7900">Christopher
+            Lee</a>
+        <!-- appears on smaller sizes with background that fills 100% width -->
+        <div class="d-block d-md-none p-4 font-weight-bold m-0" style="width:100%; background-color:#ED7900">
+            <p class="text-center text-white m-0" style="font-family: 'Oswald', sans-serif;font-size: 30px;">Christopher
+                Lee</p>
         </div>
+        <!-- nav links -->
+        <div class="navbar-nav-scroll my-3 ml-md-auto" style="margin-right:3%">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-white-50 border-right py-0 px-3" href="#"
+                        id="aboutLink"><small>About</small></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white-50 border-right py-0 px-3" href="#"
+                        id="portfolioLink"><small>Portfolio</small></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white-50 py-0 pl-3" href="#" id="contactLink"><small>Contact</small></a>
+            </ul>
+        </div>
+    </nav>
+    <!-- main body of content -->
+    <main class="container-fluid no-gutters border-top mr-0 p-0 overflow-hidden bg-light" id="aboutDisplayEl">
+        <div class="row m-0">
+            <div class="col-md-12 p-0">
+                <section class="jumbotron bg-white border py-2 px-1 my-5" style="max-width: 725px;margin: 0 3%">
+                    <div class="container">
+                        <!-- sub-row -->
+                        <div class="row">
+                            <!-- header -->
+                            <header class="col-12">
+                                <h2 class="display-5 font-weight-bold border-bottom"
+                                    style="color: #32527B; font-family: 'Yellowtail', cursive;">About Me</h2>
+                            </header>
+                        </div>
+                        <!-- sub-row -->
+                        <div class="row m-0">
+                            <div class="col-md-12 py-2 px-0">
+                                <!-- only appears on smaller sizes -->
+                                <div class="d-block d-md-none m-0">
+                                    <img src="assets/profile.jpeg" alt="profile" class="img-fluid mr-3 mb-2"
+                                        style="width:500px">
+                                </div>
+                                <!-- only appears on bigger sizes -->
+                                <div class="d-none d-md-block">
+                                    <img src="assets/profile.jpeg" alt="profile"
+                                        class="img-fluid float-sm-left mr-3 mb-2" style="width:300px">
+                                </div>
+                                <p>
+                                    I am a marketer and aspiring full-stack developer based in San Francisco,
+                                    California. Born and raised in the East Bay, I consider myself a Bay Area native
+                                    despite only recently returning to the Bay after 20 years away from home.
+                                </p>
+                                <p>
+                                    I have a BA in Chinese Language and Literature from UC Irvine and an MBA from The
+                                    Hong Kong University of Science and Technology (HKUST). Upon receiving my MBA, I was
+                                    recruited by AXA, a French multi-national insurance company, where I held numerous
+                                    management positions across various functions over the past decade. Most recently, I
+                                    was the Head of Marketing for AXA in Indonesia.
+                                </p>
+                                <p>
+                                    In a past life (i.e. prior to fatherhood), I was an avid traveler and beach
+                                    connoisseur. My three favorite beaches, in no particular order, are Whitehaven Beach
+                                    on Whitsunday Island, Australia, Furuzamami Beach on Zamami Island, Okinawa, and
+                                    Phra Nang Beach in Krabi, Thailand.
+                                </p>
+
+                                <a href="assets/Christopher Neal LEE - resume.pdf" target="blank">Resume</a>
+                                <br />
+                                <a href="https://www.linkedin.com/in/christophernlee/" target="blank">LinkedIn</a>
+                                <br />
+                                <a href="https://github.com/CofChips" target="blank">GitHub - CofChips</a>
+
+
+                            </div>
+                        </div>
+
+
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- portfolio start -->
+    <main class="container-fluid no-gutters border-top bg-light mr-0 p-0 overflow-hidden" style="display:none;"
+        id="portfolioDisplayEl">
+        <div class="row m-0">
+            <div class="col-md-12 p-0">
+                <section class="jumbotron bg-white border py-2 px-1 my-5" style="max-width: 725px;margin: 0 3%">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2 class="display-5 font-weight-bold border-bottom"
+                                    style="color: #32527B; font-family: 'Yellowtail', cursive;">Portfolio</h2>
+                            </div>
+                        </div>
+                        <!-- portfolio items -->
+                        <div class="row m-0">
+                            <div class="col-md-6 p-4">
+                                <div class="position-relative w-100 border">
+                                    <div class="overlay position-absolute w-100 b-5 text-center text-white py-1">Random
+                                        Music Quiz</div>
+                                    <a href="https://cofchips.github.io/code_quiz/#" target="blank">
+                                        <img src="assets/rmq.jpg" alt="word-guess game" class="mx-auto"
+                                            style="max-width: 100%;">
+                                    </a>
+
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-4">
+                                <div class="position-relative w-100 border">
+                                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">
+                                        Weather Dashboard</div>
+                                    <a href="https://cofchips.github.io/weather_dashboard/" target="blank">
+                                        <img src="assets/wd.jpg" alt="rpg game" class="mx-auto"
+                                            style="max-width: 100%;">
+                                    </a>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col-md-6 p-4">
+                                <div class="position-relative w-100 border">
+                                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">Work Day Scheduler</div>
+                                    <a href="https://cofchips.github.io/work_day_scheduler/">
+                                        <img src="assets/wds.jpg" alt="trivia game" class="mx-auto" style="max-width: 100%;">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 p-4">
+                                <div class="position-relative w-100 border">
+                                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">Work&Balance</div>
+                                    <a href="https://cofchips.github.io/JobSearchEateries/">
+                                        <img src="assets/wb.jpg" alt="info widget" class="mx-auto" style="max-width: 100%;">
+                                    </a>
+                                    
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+    <!-- contact -->
+    <main class="container-fluid no-gutters border-top mr-0 p-0 overflow-hidden bg-light" style="display:none;" id="contactDisplayEl">
+        <div class="row m-0">
+          <div class="col-md-12 p-0">
+            <section class="jumbotron bg-white border py-2 px-1 my-5" style="max-width: 725px;margin: 0 3%">
+              <div class="container">
+                <!-- sub-row -->
+                <div class="row">
+                  <!-- header -->
+                  <header class="col-12">
+                    <h2 class="display-5 font-weight-bold border-bottom" style="color: #32527B; font-family: 'Yellowtail', cursive;">Contact</h2>
+                  </header>
+                </div>
+                <!-- form -->
+                <form>
+                  <div class="form-group">
+                      <label for="nameform">Name</label>
+                      <input type="text" class="form-control" id="nameform" placeholder="John Smith">            
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@gmail.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                  </div>
+                  <button type="submit" class="btn" style="background-color: #32527B; color:white">Submit</button>
+                </form>
+              </div>  
+            </section>
+          </div>
         </div>
       </main>
     <!-- line above footer -->
     <!-- footer -->
-      <footer class="footer">
+    <footer class="footer">
         <div class="container-fluid no-gutters mr-0 pt-1 overflow-hidden" style="background-color: #ED7900;"></div>
-        <div class="container-fluid text-center text-white border-top" style="border-color: #ED7900; background-color:#32527B;">
-        &copy;Copyright Christopher Lee
+        <div class="container-fluid text-center text-white border-top"
+            style="border-color: #ED7900; background-color:#32527B;">
+            &copy;Copyright Christopher Lee
         </div>
-      </footer>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>
