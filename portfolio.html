@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <style>
+
+      .overlay {
+        bottom: 15%;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        background-color:#59AAA5;
+      }
+
+      html {
+        position: relative;
+        min-height: 100%;
+      }
+      
+      body {
+        margin-bottom: 60px; /* Margin bottom by footer height */
+      }
+      
+      .footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px; /* Set the fixed height of the footer here */
+        line-height: 60px; /* Vertically center the text there */
+      }
+    </style>
+    <title>Christopher Lee - Portfolio</title>
+  </head>
+  <body class="bg-light">
+   
+<!-- responsive navbar -->
+<nav class="navbar navbar-expand flex-column flex-md-row navbar-dark p-0 border-bottom bg-white bd-navbar overflow-hidden"> 
+  <!-- existing brand component with responsive margin and hides on xs -->
+  <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100" style="margin-left:3%;font-family: 'Times New Roman', Times, serif;font-size: 30px; background-color:#59AAA5">Christopher Lee</a>
+  <!-- appears on xs with background that fills 100% width -->
+  <div class="d-block d-md-none p-4 font-weight-bold m-0" style="width:100%; background-color:#59AAA5">
+    <p class="text-center text-white m-0" style="font-family: 'Times New Roman', Times, serif;font-size: 30px;">Christopher Lee</p>
+  </div>
+  <!-- nav links -->
+  <div class="navbar-nav-scroll my-3 ml-md-auto" style="margin-right:3%">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link text-black-50 border-right py-0 px-3" href="index.html"><small>About</small></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black-50 border-right py-0 px-3" href="portfolio.html"><small>Portfolio</small></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-black-50 py-0 pl-3" href="contact.html"><small>Contact</small></a>
+    </ul>
+  </div>
+</nav>
+
+    <main class="container-fluid no-gutters border-top border-bottom bg-light mr-0 p-0 overflow-hidden">
+      <div class="row m-0">
+        <div class="col-md-12 p-0">
+          <section class="jumbotron bg-white border py-2 px-1 my-5" style="max-width: 725px;margin: 0 3%">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="display-5 font-weight-bold border-bottom" style="color:#59AAA5; font-family:'Times New Roman', Times, serif">Portfolio</h2>
+                </div>
+              </div>
+              <!-- portfolio items -->
+              <div class="row m-0">
+                <div class="col-md-6 p-4">
+                  <div class="position-relative w-100">
+                    <img src="word-guess.jpg" alt="word-guess game" class="mx-auto" style="max-width: 100%;">
+                    <div class="overlay position-absolute w-100 b-5 text-center text-white py-1">Word Guess</div>
+                  </div>
+                </div>
+                <div class="col-md-6 p-4">
+                  <div class="position-relative w-100">
+                    <img src="rpg.jpg" alt="rpg game" class="mx-auto" style="max-width: 100%;">
+                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">RPG Game</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0">
+                <div class="col-md-6 p-4">
+                  <div class="position-relative w-100">
+                    <img src="trivia1.jpg" alt="trivia game" class="mx-auto" style="max-width: 100%;">
+                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">Trivia Game</div>
+                  </div>
+                </div>
+                <div class="col-md-6 p-4">
+                  <div class="position-relative w-100">
+                    <img src="info3.jpg" alt="info widget" class="mx-auto" style="max-width: 100%;">
+                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">Info Widget</div>
+                  </div>
+                </div>
+              </div>
+              <div class="row m-0">
+                <div class="col-md-6 p-4">
+                  <div class="position-relative w-100">
+                    <img src="rps2.jpg" alt="rock paper scissors game" class="mx-auto" style="max-width: 100%;">
+                    <div class="overlay position-absolute w-100 b-5 text-center  text-white py-1">Rock Paper Scissors</div>
+                  </div>
+                </div>
+                <div class="col-md-6 p-4">  
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        </div>
+      </main>
+    <!-- line above footer -->
+    <!-- footer -->
+      <footer class="footer">
+        <div class="container-fluid no-gutters mr-0 pt-1 overflow-hidden" style="background-color: #59AAA5;"></div>
+        <div class="container-fluid text-center text-white bg-secondary border-top border-info">
+        &copy;Copyright
+        </div>
+      </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
