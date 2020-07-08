@@ -26,4 +26,10 @@ contactLink.on("click",function(){
     contactDisplayEl.attr("style","display:block;");
 })
 
+$("#emailEl").on("click",function(){
+    aboutDisplayEl.attr("style","display:none;")
+    portfolioDisplayEl.attr("style","display:none;")
+    contactDisplayEl.attr("style","display:block;");
+})
+
 })
