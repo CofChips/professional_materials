@@ -44,20 +44,24 @@
 <body class="bg-light">
 
     <!-- responsive navbar -->
-    <nav class="navbar navbar-expand flex-column flex-md-row navbar-dark p-0 border-bottom bd-navbar overflow-hidden"
+    <nav class="navbar navbar-expand flex-column p-0 bd-navbar overflow-hidden"
         style="background-color: #32527B;">
         <!-- existing brand component with responsive margin and hides on smaller sizes -->
-        <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100"
+        <!-- <a class="navbar-brand p-4 font-weight-bold d-none d-md-block h-100"
             style="margin-left:3%;font-family: 'Oswald', sans-serif;font-size: 30px; background-color:#ED7900">Christopher
-            Lee</a>
+            Lee</a> -->
         <!-- appears on smaller sizes with background that fills 100% width -->
-        <div class="d-block d-md-none p-4 font-weight-bold m-0" style="width:100%; background-color:#ED7900">
+        <div class="p-4 font-weight-bold m-0" style="width:100%; background-color:#ED7900">
             <p class="text-center text-white m-0" style="font-family: 'Oswald', sans-serif;font-size: 30px;">Christopher
                 Lee</p>
         </div>
-        <!-- nav links -->
-        <div class="navbar-nav-scroll my-3 ml-md-auto" style="margin-right:3%">
-            <ul class="navbar-nav">
+
+    </nav>
+            <!-- nav links -->
+        <!-- <div class="navbar-nav-scroll my-3 ml-md-auto" style="margin-right:3%"> -->
+            <nav class="navbar navbar-expand navbar-dark p-0 bd-navbar overflow-hidden"
+            style="background-color: #32527B;">
+            <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
                     <a class="nav-link text-white-50 border-right py-0 px-3" href="#"
                         id="aboutLink"><small>About</small></a>
@@ -69,13 +73,14 @@
                 <li class="nav-item">
                     <a class="nav-link text-white-50 py-0 pl-3" href="#" id="contactLink"><small>Contact</small></a>
             </ul>
-        </div>
+
+        <!-- </div> -->
     </nav>
     <!-- main body of content -->
     <main class="container-fluid no-gutters border-top mr-0 p-0 overflow-hidden bg-light" id="aboutDisplayEl">
         <div class="row m-0">
             <div class="col-md-12 p-0">
-                <section class="jumbotron bg-white border py-2 px-1 my-5" style="max-width: 725px;margin: 0 3%">
+                <section class="jumbotron bg-white border py-2 px-1 my-5 mx-md-auto" style="max-width: 950px;">
                     <div class="container">
                         <!-- sub-row -->
                         <div class="row">
@@ -95,11 +100,11 @@
                                 </div>
                                 <!-- only appears on bigger sizes -->
                                 <div class="d-none d-md-block">
-                                    <img src="assets/profile.jpeg" alt="profile"
+                                    <img src="assets/profile2.jpeg" alt="profile"
                                         class="img-fluid float-sm-left mr-3 mb-2" style="width:300px">
                                 </div>
                                 <p>
-                                    I am a marketer and aspiring full-stack developer based in San Francisco,
+                                    I am a marketer and aspiring full-stack web developer based in San Francisco,
                                     California. Born and raised in the East Bay, I consider myself a Bay Area native
                                     despite only recently returning to the Bay after 20 years away from home.
                                 </p>
@@ -117,10 +122,10 @@
                                     Phra Nang Beach in Krabi, Thailand.
                                 </p>
 
-                                <a href="assets/Christopher Neal LEE - resume.pdf" target="blank">Resume</a>
-                                <br />
+                                <a href="assets/Christopher Neal LEE - resume.pdf" target="blank">Resume</a> 
+                                <span>&nbsp;|&nbsp;</span>
                                 <a href="https://www.linkedin.com/in/christophernlee/" target="blank">LinkedIn</a>
-                                <br />
+                                <span>&nbsp;|&nbsp;</span>
                                 <a href="https://github.com/CofChips" target="blank">GitHub - CofChips</a>
 
 
